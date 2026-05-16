@@ -43,10 +43,10 @@
   },
   "custom/prayerbar": {
     "format": "{}",
-    "tooltip": true,
+    "exec": "~/.config/waybar/modules/prayerbar Dhaka Bangladesh 1",
+    "return-type": "json",
     "interval": 60,
-    "exec": "/home/fatintkishan/.local/bin/prayerbar --city Dhaka --country Bangladesh --method 1",
-    "return-type": "json"
+    "tooltip": true
   },
   "clock#simpleclock": {
     "tooltip": false,
